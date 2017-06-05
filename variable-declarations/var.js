@@ -1,10 +1,15 @@
 function f() {
-    var a = 10;
-    return function g() {
-        var b = a + 1;
-        return b;
+    var a = 1;
+
+    a = 2;
+    var b = g();
+    a = 3;
+
+    return b;
+
+    function g() {
+        return a;
     }
 }
 
-var g = f();
-g();
+f();
