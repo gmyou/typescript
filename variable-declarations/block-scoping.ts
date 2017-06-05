@@ -1,3 +1,11 @@
-function f(x) {
-    let x = 100; // error: interferes with parameter declaration
+function f(condition, x) {
+    if (condition) {
+        let x = 100;
+        return x;
+    }
+
+    return x;
 }
+
+f(false, 0); // returns '0'
+f(true, 0);  // returns '100'
