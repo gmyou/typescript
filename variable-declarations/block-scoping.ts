@@ -1,2 +1,3 @@
-let x = 10;
-x = 20;
+function f(x) {
+    let x = 100; // error: interferes with parameter declaration
+}
