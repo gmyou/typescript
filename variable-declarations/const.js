@@ -4,10 +4,10 @@ var kitty = {
     numLives: numLivesForCat
 };
 // Error
-kitty = {
-    name: "Danielle",
-    numLives: numLivesForCat
-};
+// kitty = {
+//     name: "Danielle",
+//     numLives: numLivesForCat
+// };
 // all "okay"
 kitty.name = "Rory";
 kitty.name = "Kitty";

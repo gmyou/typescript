@@ -5,10 +5,10 @@ const kitty = {
 }
 
 // Error
-kitty = {
-    name: "Danielle",
-    numLives: numLivesForCat
-};
+// kitty = {
+//     name: "Danielle",
+//     numLives: numLivesForCat
+// };
 
 // all "okay"
 kitty.name = "Rory";
