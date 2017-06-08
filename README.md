@@ -15,7 +15,7 @@ tsc --init
 ```
 
 ### extension
-tslint for Code convention
+`tslint` for Code convention
 ```bash
 npm install tslint --save
 ./node_module/.bin/tslint --init
